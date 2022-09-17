@@ -212,6 +212,9 @@ Student.courseName = function () {
 console.log(Student.courseName());
 
 
+Student.courseName = () => 'This student is enrolled in Code 301.';
+
+console.log(Student.courseName());
 
 // STEP 11
 // How do arrow functions affect constructor functions?
